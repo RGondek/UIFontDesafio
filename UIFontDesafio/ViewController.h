@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *lblNome;
+@property (weak, nonatomic) IBOutlet UITextField *txtNome;
+
+- (IBAction)clickFont:(id)sender;
+- (IBAction)bntAlterar:(id)sender;
 
 @end
 
